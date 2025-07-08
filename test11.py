@@ -18,7 +18,7 @@ def funtion(path):
             temp = re.sub("[\[\]a-zA-Z0-9@.()（）？。，,“”：:_\"’'/=\-\\n、!]", ' ', line).replace(" ", "")
             total_cnt += len(temp)
     print("中文总字数：", total_cnt)
-    print('test2')
+    print('test3')
 
 
 if __name__ == '__main__':
